@@ -1,0 +1,4 @@
+*.dat
+*.mat
+*.db
+Thumbs.db
