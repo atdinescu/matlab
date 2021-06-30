@@ -39,11 +39,7 @@ opts = setvaropts(opts, [1, 2], "TrimNonNumeric", true);
 opts = setvaropts(opts, [1, 2], "ThousandsSeparator", ",");
 opts = setvaropts(opts, [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "EmptyFieldRule", "auto");
 opts.ExtraColumnsRule = "ignore";
-<<<<<<< HEAD
 opts.EmptyLineRule = "skip";
-=======
-opts.EmptyLineRule = "read";
->>>>>>> 251c2c9b4d53edbbd6feb9a3bd0c70b029ca975d
 opts.ConsecutiveDelimitersRule = "join";
 opts.LeadingDelimitersRule = "ignore";
 
